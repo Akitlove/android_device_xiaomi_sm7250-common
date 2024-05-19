@@ -1,3 +1,6 @@
+# Accessories
+/vendor/bin/hw/vendor\.lineage\.accessories-service\.xiaomi                                         u:object_r:hal_lineage_accessories_default_exec:s0
+
 # Audio
 /dev/socket/audio_hw_socket                                             u:object_r:audio_socket:s0
 /sys/devices/platform/soc/a8c000.i2c/i2c-2/2-005a/f0_value              u:object_r:vendor_sysfs_audio:s0
