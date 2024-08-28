@@ -54,10 +54,6 @@ USE_DEX2OAT_DEBUG := false
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 
-# Accessories
-PRODUCT_PACKAGES += \
-    vendor.lineage.accessories-service.xiaomi
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
