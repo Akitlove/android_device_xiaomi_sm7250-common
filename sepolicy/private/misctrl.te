@@ -1,0 +1,1 @@
+allow misctrl misctrl:capability { sys_admin };

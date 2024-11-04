@@ -1,0 +1,1 @@
+allow vendor_rfs_access vendor_rfs_access:capability { sys_admin };
