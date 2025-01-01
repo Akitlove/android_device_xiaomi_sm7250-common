@@ -205,6 +205,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service
 
 PRODUCT_PACKAGES += \
+    gralloc.qcom \
     libdisplayconfig.qti \
     libdisplayconfig.system.qti \
     libqdMetaData \
