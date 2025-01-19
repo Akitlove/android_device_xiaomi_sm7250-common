@@ -545,7 +545,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     init.fingerprint.rc \
-    init.logcat.rc \
     init.qcom.power.rc \
     init.qcom.rc \
     init.recovery.qcom.rc \
