@@ -1,2 +1,2 @@
-allow logpersist logpersist:capability { dac_read_search dac_override sys_admin };
+
 allow logpersist cache_file:dir { read open search };
