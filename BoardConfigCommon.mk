@@ -80,7 +80,7 @@ DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB ?= //$(COMMON_PATH):init_xiaomi_lito
+$(call soong_config_set,libinit,vendor_init_lib,//$(COMMON_PATH):init_xiaomi_lito)
 TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_lito
 
 # Kernel
