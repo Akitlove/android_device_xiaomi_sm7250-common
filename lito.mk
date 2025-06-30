@@ -310,6 +310,8 @@ PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
 
 # Lineage Health
+$(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
+
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
