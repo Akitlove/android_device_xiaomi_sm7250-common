@@ -65,7 +65,6 @@ vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/etc/charger_fstab.qti
 
 # Charger (Mi Turbo Charge)
-vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
 # CNE
