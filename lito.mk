@@ -138,27 +138,9 @@ PRODUCT_COPY_FILES += \
 TARGET_BOARD_PLATFORM := lito
 
 # Camera
-$(call soong_config_set,camera,override_format_from_reserved,true)
-
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64 \
-    libcamera2ndk_vendor \
-    libgui_vendor \
-    libpng.vendor \
-    vendor.qti.hardware.camera.device@1.0.vendor \
-    vendor.qti.hardware.camera.postproc@1.0.vendor
-
-PRODUCT_PACKAGES += \
-    libstdc++_vendor
-
-# Camera Legacy HIDL deps
-PRODUCT_PACKAGES += \
-    android.hidl.manager@1.0 \
-    android.hidl.manager@1.0.vendor \
-    android.hidl.memory.block@1.0 \
-    android.hidl.memory.block@1.0.vendor \
-    android.hidl.memory@1.0-impl
+    android.hardware.camera.provider@2.4-service_64
 
 # Configstore
 PRODUCT_PACKAGES += \
