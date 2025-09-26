@@ -137,7 +137,6 @@ PRODUCT_COPY_FILES += \
 # Board
 TARGET_BOARD_PLATFORM := lito
 
-# Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64
@@ -153,6 +152,7 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
+    XiaomiDolby \
     XiaomiParts
 
 # Component overrides

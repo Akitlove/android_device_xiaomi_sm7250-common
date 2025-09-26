@@ -32,6 +32,10 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libcrypto_shim.so'),
     'vendor/lib64/mediadrm/libwvdrmengine.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
+    'odm/etc/dolby/multimedia_dolby_dax_default.xml': blob_fixup()
+        .regex_replace('volume-leveler-enable value="true"', 'volume-leveler-enable value="false"'),
+    'odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service': blob_fixup()
+        .add_needed('libstagefright_foundation-v33.so'),
 }  # fmt: skip
 
 

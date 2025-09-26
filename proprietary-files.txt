@@ -161,6 +161,29 @@ vendor/lib64/vendor.display.color@1.4.so|caa75a7dc5f47ae1128936bdd9906c34d6e88c6
 vendor/lib64/vendor.display.color@1.5.so|2816ad7ee01408a8a91f14307a8b29e1c370ab4e
 vendor/lib64/vendor.display.postproc@1.0.so|b3c3811c5f07773ef156701c31c448b85ad60c64
 
+# Dolby Atmos - from Oneplus 9RT MT2111_14.0.0.730(EX01)
+odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service
+odm/etc/dolby/multimedia_dolby_dax_default.xml
+odm/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc
+odm/etc/vintf/manifest/manifest_dax_dolby_v3_6.xml
+odm/lib/libdapparamstorage_v3_6.so
+odm/lib/libdeccfg_v3_6.so
+odm/lib/libdlbdsservice_v3_6.so
+odm/lib/libqtigef.so;MODULE_SUFFIX=_odm
+odm/lib/libstagefright_soft_ddpdec.so;FIX_SONAME
+odm/lib/soundfx/libhwdap_v3_6.so
+odm/lib/soundfx/libswdap_v3_6.so
+odm/lib/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so
+odm/lib/vendor.dolby_v3_6.hardware.dms360@2.0.so
+odm/lib64/libdapparamstorage_v3_6.so
+odm/lib64/libdeccfg_v3_6.so
+odm/lib64/libdlbdsservice_v3_6.so
+odm/lib64/libqtigef.so;MODULE_SUFFIX=_odm
+odm/lib64/soundfx/libhwdap_v3_6.so
+odm/lib64/soundfx/libswdap_v3_6.so
+odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so
+odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0.so
+
 # DPM
 system/framework/tcmclient.jar
 system_ext/bin/dpmd
