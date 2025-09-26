@@ -287,6 +287,7 @@ persist.backup.ntpServer=0.pool.ntp.org
 # Graphics
 PRODUCT_VENDOR_PROPERTIES += \
 debug.egl.hw=0 \
+debug.renderengine.backend=skiavkthreaded \
 debug.mdpcomp.logs=0 \
 debug.sf.enable_advanced_sf_phase_offset=1 \
 debug.sf.enable_gl_backpressure=1 \
