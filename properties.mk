@@ -242,9 +242,9 @@ drm.service.enabled=true
 # Encryption
 PRODUCT_VENDOR_PROPERTIES += \
 ro.crypto.dm_default_key.options_format.version=2 \
-ro.crypto.volume.metadata.method=dm-default-key \
 ro.crypto.volume.filenames_mode=aes-256-cts \
-ro.crypto.volume.options=aes-256-xts:aes-256-cts:v2+inlinecrypt_optimized
+ro.crypto.volume.metadata.method=dm-default-key \
+ro.crypto.volume.options=::v2
 
 # Fingerprint
 PRODUCT_VENDOR_PROPERTIES += \
