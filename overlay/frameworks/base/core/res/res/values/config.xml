@@ -338,10 +338,13 @@
     <integer name="config_vibrationWaveformRampDownDuration">50</integer>
 
     <!-- Whether device has turbo power charging support -->
-    <bool name="config_hasTurboPowerCharger">false</bool>
+    <bool name="config_hasTurboPowerCharger">true</bool>
 
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/bms/fastcharge_mode</string>
+
+    <!-- Expected value from fast charging status file  -->
+    <string name="config_oemFastChargerStatusValue" translatable="false">3</string>
 
     <!-- Whether the device enable the standalone (SA) mode of 5G NR.-->
     <bool name="config_telephony5gStandalone">true</bool>
