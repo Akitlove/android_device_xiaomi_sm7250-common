@@ -388,7 +388,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.pixel-libperfmgr
+    android.hardware.power-service.lineage-libperfmgr
 
 PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
@@ -471,6 +471,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     bootable/deprecated-ota \
+    hardware/lineage/interfaces/power-libperfmgr \
     hardware/xiaomi
 
 # Telephony
