@@ -222,11 +222,11 @@ vendor/lib/vendor.qti.hardware.dsp@1.0.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 # Embedded Secure Element power manager - from munch miui_MUNCHGlobal_V14.0.4.0.TLMMIXM_d6c833c659_13.0
-vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|35676a23f81fe20a5bda8e2bf0e53287089b779b0b7b8ff230babe47ef19127e
-vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|cc0c23bf86c480eff39563e7c4733fe1e0848d68f284e6975947823be873bb74
-vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|44a4f0fb537ab28283cdd8e6e5c0ac66ca19572bf13ae97b7cbbb7b1e9400063
-vendor/lib64/vendor.qti.esepowermanager@1.0.so|773dcebcdceaaa26f9eff2fcd5189fe8177cf5bb507f547982a2a00ceeae5c7d
-vendor/lib64/vendor.qti.esepowermanager@1.1.so|b1332df9a5639312b01ed7ce2a970a4e7f24edcad9828b72e19ab0bf414b8e1e
+vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|0427ec8683d9737faa00d3fcb9e19b660a26c298
+vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
+vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|5560bfccdc7ea51ed6f3ae032573122ef113c619
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|1d9663e2ad911aa75da4b07a2b17dd023d4c796e
+vendor/lib64/vendor.qti.esepowermanager@1.1.so|2cbafa6dafde9fd8d039eaf08ccff56d347b455f
 
 # Feature enabler client
 vendor/bin/feature_enabler_client
@@ -465,16 +465,16 @@ vendor/etc/media_profiles_vendor.xml
 vendor/etc/system_properties.xml
 
 # Media (Codec2) - from LA.UM.9.12.r1-14000.04-SMxx50.QSSI12.0
-vendor/bin/hw/vendor.qti.media.c2@1.0-service|cd2c5d4f2050f7d72bb1116899da5abb49eb1864
+vendor/bin/hw/vendor.qti.media.c2@1.0-service|c170ebc5a0416f609186639125132b87a5650ef8
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
-vendor/etc/media_codecs_c2.xml|5c2ab87923210f36952b41c043b7f05b0674d7e5
-vendor/etc/media_codecs_performance_c2.xml|f6597764a06e7d86ad28b69320b371a6cce5006b
+vendor/etc/media_codecs_c2.xml|ed03373ec19bf419f3cbad2c93ff6de24bac7c54
+vendor/etc/media_codecs_performance_c2.xml|dc77751bd6d5f94e97ce815c24d3ef1de25e30f9
 vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy|3c396a276dfb589501105e7158459fa2d644607e
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy|a134d3d5d74294ca8164056b42389b1c7dbb2b65
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml|0e532bf1c7d6a0ee2e7e03a9cc3283a5bffc7f8e
 vendor/lib/libqcodec2_base.so|5bec0dec355c90d2a9739105b6d9810291ab9995
 vendor/lib/libqcodec2_basecodec.so|a517b6a89bf54d58c46758621c6dce9056cb92f7
-vendor/lib/libqcodec2_core.so|b92991b36af312411eb4779fea1a5c22550c1d56
+vendor/lib/libqcodec2_core.so|e82b50bc9574436fdc8b881cb94ffa8fae409dd3
 vendor/lib/libqcodec2_platform.so|77f33c008a7b7c0b8f2b4c992b26c2da8e69fe24
 vendor/lib/libqcodec2_utils.so|867b95c219f59126bbf19bb63fba43f9f7a30462
 vendor/lib/libqcodec2_v4l2codec.so|ffd18f2c4cfad643a3409165281cf1115488ad0a
