@@ -444,6 +444,11 @@ ro.telephony.iwlan_operation_mode=default
 PRODUCT_PRODUCT_PROPERTIES += \
 persist.rcs.otp_sms_port=0
 
+# ScrollOptimizer
+PRODUCT_VENDOR_PROPERTIES += \
+persist.sys.perf.scroll_opt=true \
+persist.sys.perf.scroll_opt.heavy_app=1
+
 # Seamless transfer
 PRODUCT_VENDOR_PROPERTIES += \
 sys.fflag.override.settings_seamless_transfer=true
