@@ -196,7 +196,6 @@ persist.sys.sf.color_mode=9 \
 persist.sys.sf.color_saturation=1.0 \
 persist.sys.sf.native_mode=2 \
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
-ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
 ro.surface_flinger.max_virtual_display_dimension=4096 \
 ro.surface_flinger.protected_contents=true \
 ro.surface_flinger.support_kernel_idle_timer=true \
