@@ -290,6 +290,7 @@ persist.backup.ntpServer=0.pool.ntp.org
 PRODUCT_VENDOR_PROPERTIES += \
 debug.egl.hw=0 \
 debug.mdpcomp.logs=0 \
+debug.sf.enable_adpf_cpu_hint=true \
 debug.sf.enable_advanced_sf_phase_offset=1 \
 debug.sf.high_fps_early_gl_phase_offset_ns=-4000000 \
 debug.sf.high_fps_early_phase_offset_ns=-4000000 \
