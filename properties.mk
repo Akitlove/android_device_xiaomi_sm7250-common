@@ -288,7 +288,6 @@ persist.backup.ntpServer=0.pool.ntp.org
 
 # Graphics
 PRODUCT_VENDOR_PROPERTIES += \
-debug.egl.hw=0 \
 debug.mdpcomp.logs=0 \
 debug.sf.enable_adpf_cpu_hint=true \
 debug.sf.enable_advanced_sf_phase_offset=1 \
@@ -296,7 +295,6 @@ debug.sf.high_fps_early_gl_phase_offset_ns=-4000000 \
 debug.sf.high_fps_early_phase_offset_ns=-4000000 \
 debug.sf.high_fps_late_app_phase_offset_ns=1000000 \
 debug.sf.high_fps_late_sf_phase_offset_ns=-4000000 \
-debug.sf.hw=0 \
 debug.sf.latch_unsignaled=1 \
 ro.hardware.egl=adreno \
 ro.hardware.vulkan=adreno \
