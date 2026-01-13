@@ -303,7 +303,7 @@ ro.vendor.perf.scroll_opt=true \
 vendor.gralloc.disable_ubwc=0
 
 # HWUI
-PRODUCT_VENDOR_PROPERTIES += \
+PRODUCT_SYSTEM_PROPERTIES += \
 ro.hwui.render_ahead=30 \
 ro.hwui.drop_shadow_cache_size=6 \
 ro.hwui.gradient_cache_size=1 \
@@ -316,6 +316,10 @@ ro.hwui.text_small_cache_height=1024 \
 ro.hwui.text_small_cache_width=1024 \
 ro.hwui.texture_cache_flushrate=0.4 \
 ro.hwui.texture_cache_size=72 \
+renderthread.skia.reduceopstasksplitting=true
+
+# HWUI
+PRODUCT_VENDOR_PROPERTIES += \
 debug.hwui.use_hint_manager=true \
 debug.hwui.target_cpu_time_percent=30 \
 debug.hwui.renderer=skiavk \
@@ -324,8 +328,7 @@ debug.hwui.use_triple_buffering=true \
 debug.renderengine.vulkan=true \
 debug.renderengine.graphite=true \
 debug.renderengine.backend=skiavkthreaded \
-debug.stagefright.renderengine.backend=threaded \
-renderthread.skia.reduceopstasksplitting=true
+debug.stagefright.renderengine.backend=threaded
 
 # HVDCP
 PRODUCT_VENDOR_PROPERTIES += \
