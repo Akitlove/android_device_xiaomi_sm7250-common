@@ -1,3 +1,2 @@
 
 allow hal_secure_element_default hal_nfc_default:binder { call };
-allow hal_secure_element_default hal_nfc_service:binder { call };
