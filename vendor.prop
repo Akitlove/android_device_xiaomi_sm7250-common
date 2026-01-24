@@ -3,3 +3,6 @@ vendor.audio.feature.compr_voip.enable=false
 
 # Media
 vendor.media.omx=0
+
+# Enable or disable ScrollOptimizer globally
+persist.sys.perf.scroll_opt = true
