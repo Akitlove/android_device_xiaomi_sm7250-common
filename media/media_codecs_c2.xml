@@ -66,6 +66,7 @@
     <Settings>
         <Domain name="telephony" enabled="true" />
         <Setting name="max-video-encoder-input-buffers" value="11" />
+        <Include href="media_codecs_dolby_audio.xml" />
     </Settings>
     <Decoders>
         <!-- C2 decoders -->
