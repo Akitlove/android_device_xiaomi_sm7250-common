@@ -331,6 +331,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     $(foreach tag,$(SPAMMY_LOG_TAGS),log.tag.$(tag)=E)
 endif
 
+# LunarisDolby
+PRODUCT_PACKAGES += \
+    LunarisDolby
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
