@@ -1,2 +1,0 @@
-# This is needed for AxionAOSP Bypass Charging feature in Game Space
-allow init sysfs_battery_supply:file rw_file_perms;
