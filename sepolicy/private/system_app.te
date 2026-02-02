@@ -4,3 +4,6 @@ allow system_app {
     storaged
     system_suspend
 }:binder { call };
+# Read zram files.
+allow system_app sysfs_zram:dir r_dir_perms;
+allow system_app sysfs_zram:file r_file_perms;
