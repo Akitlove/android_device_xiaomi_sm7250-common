@@ -282,6 +282,7 @@ vendor/lib64/libllvm-qgl.so|8f4a956f32af21d095d84adcc81664919efd5738
 vendor/lib64/vendor.qti.qspmhal@1.0.so|da70a0f95a1993763cffd9466f203dd1d7889c02
 
 # Graphics (Adreno) vulkan 819.2
+vendor/lib/hw/vulkan.adreno.so|dcc789d422d69fbe47a5e0110b5277799925f0a3
 vendor/lib64/hw/vulkan.adreno.so|7b9074211b36f429406371417805da4f61349490
 
 # Graphics (Adreno firmware)
