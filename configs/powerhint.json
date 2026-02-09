@@ -91,32 +91,24 @@
     },
     {
       "Name": "GPUMaxFreq",
-      "Path": "/sys/class/kgsl/kgsl-3d0/max_pwrlevel",
+      "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/max_freq",
       "Values": [
-        "0",
-        "1"
-      ],
-      "Comments": [
-        "0 => 625000000",
-        "1 => 500000000"
+        "625000000",
+        "500000000",
+        "400000000",
+        "275000000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
     },
     {
       "Name": "GPUMinFreq",
-      "Path": "/sys/class/kgsl/kgsl-3d0/min_pwrlevel",
+      "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/min_freq",
       "Values": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "Comments": [
-        "0 => 625000000",
-        "1 => 500000000",
-        "2 => 400000000",
-        "3 => 275000000"
+        "625000000",
+        "500000000",
+        "400000000",
+        "275000000"
       ],
       "ResetOnInit": true
     },
@@ -353,7 +345,7 @@
       "PowerHint": "SUSTAINED_PERFORMANCE",
       "Node": "GPUMaxFreq",
       "Duration": 0,
-      "Value": "1"
+      "Value": "500000000"
     },
     {
       "PowerHint": "INTERACTION",
@@ -743,13 +735,13 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMinFreq",
       "Duration": 0,
-      "Value": "1"
+      "Value": "500000000"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMaxFreq",
       "Duration": 0,
-      "Value": "0"
+      "Value": "625000000"
     },
     {
       "PowerHint": "FIXED_PERFORMANCE",
@@ -791,13 +783,13 @@
       "PowerHint": "FIXED_PERFORMANCE",
       "Node": "GPUMaxFreq",
       "Duration": 0,
-      "Value": "0"
+      "Value": "625000000"
     },
     {
       "PowerHint": "FIXED_PERFORMANCE",
       "Node": "GPUMinFreq",
       "Duration": 0,
-      "Value": "0"
+      "Value": "625000000"
     },
     {
       "PowerHint": "Flipendo",
