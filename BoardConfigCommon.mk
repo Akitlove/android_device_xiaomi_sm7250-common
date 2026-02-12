@@ -112,6 +112,7 @@ BOARD_KERNEL_CMDLINE += service_locator.enable=1
 BOARD_KERNEL_CMDLINE += swiotlb=2048 loop.max_part=7
 # BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
+TARGET_KERNEL_NO_GCC := true
 TARGET_KERNEL_CONFIG := vendor/lito-perf_defconfig vendor/xiaomi/picasso.config
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm7250
 
