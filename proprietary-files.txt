@@ -301,6 +301,7 @@ vendor/firmware/a650_zap.elf|7cc7ca1d92769649bbd44357fc15730ce1c09968
 vendor/firmware/a650_zap.mdt
 
 # GNSS
+vendor/app/CACertService/CACertService.apk
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server;DISABLE_CHECKELF
