@@ -74,3 +74,4 @@ genfscon sysfs /devices/platform/soc/98c000.i2c/i2c-2/2-0066/power_supply/bq2597
 genfscon sysfs /devices/platform/soc/98c000.i2c/i2c-2/2-0066/wakeup/wakeup30                                                                                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/npu/msm_npu/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/input/input3/wakeup69                                                                                              u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/virtual/input/input3/wakeup70                                                                                              u:object_r:sysfs_wakeup:s0
