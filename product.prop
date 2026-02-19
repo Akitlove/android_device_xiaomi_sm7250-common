@@ -23,3 +23,6 @@ bluetooth.profile.vc.server.enabled=true
 
 # BPF
 ro.bpf.kver_override=5.10.239
+
+# miuicamera
+ro.product.mod_device=codename_global
