@@ -320,12 +320,9 @@ renderthread.skia.reduceopstasksplitting=true
 PRODUCT_VENDOR_PROPERTIES += \
 debug.hwui.use_hint_manager=true \
 debug.hwui.target_cpu_time_percent=30 \
-debug.hwui.renderer=skiavk \
 debug.hwui.show_overdraw=false \
 debug.hwui.use_triple_buffering=true \
-debug.renderengine.vulkan=true \
 debug.renderengine.graphite=true \
-debug.renderengine.backend=skiavkthreaded \
 debug.stagefright.renderengine.backend=threaded
 
 # HVDCP
